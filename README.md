@@ -1,6 +1,6 @@
 # Chain Reaction Interactive
 
-> https://chainreactioninteractive.com.br
+> https://chainreactioninteractive.com
 
 ## Development
 
