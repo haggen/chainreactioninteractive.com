@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "author": "Arthur <arthur@corenzan.com>",
+  "version": "1.0.0",
+  "license": "ISC",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "echo Not implemented >&2",
+    "build": "parcel build",
+    "start": "parcel",
+    "prestart": "test -d node_modules || npm ci"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.7.0",
+    "@parcel/transformer-webmanifest": "^2.7.0",
+    "parcel": "^2.7.0"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "dependencies": {
+    "resetize": "^30.0.1"
+  },
+  "@parcel/transformer-css": {
+    "drafts": {
+      "customMedia": true,
+      "nesting": true
+    }
+  }
+}
